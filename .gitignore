@@ -1,4 +1,4 @@
-# Python virtual environments
+# Python virtual environment
 .venv/
 venv/
 
@@ -7,19 +7,24 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Training outputs / models
+runs/
+videos/
+*.cleanrl_model
+*.pt
+*.pth
+
 # VS Code
 .vscode/
-
-# Jupyter
-.ipynb_checkpoints/
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# TensorBoard logs
-runs/
+# Jupyter temporary files
+.ipynb_checkpoints/
 
-# Model checkpoints
-*.pt
-*.pth
+# Local / auxiliary experiment files
+RL/DeepRL_TP/results_terminated_only/
+RL/DeepRL_TP/comandos_utiles.txt
+RL/DeepRL_TP/src/reevaluate_models.py
